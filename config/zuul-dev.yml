@@ -26,3 +26,9 @@ ribbon:
   ReadTimeout: 1000
   MaxAutoRestriesNextServcer: 1
   MaxAutoRetires: 1
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
